@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Controller to show various app iptions and settings
 final class RMSettingViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -14,5 +15,4 @@ final class RMSettingViewController: UIViewController {
         view.backgroundColor = .systemBackground
         title = "Settings"
     }
-
 }

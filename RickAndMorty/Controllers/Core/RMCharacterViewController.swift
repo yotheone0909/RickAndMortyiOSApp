@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+/// Controller ti shiw abd search for Character
 final class RMCharacterViewController: UIViewController {
 
     override func viewDidLoad() {
