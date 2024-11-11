@@ -8,10 +8,10 @@
 import Foundation
 
 /// Primary API service object to get Rick and Motry data
-final class RMSerive {
+final class RMService {
     
     /// Shared singleton instance
-    static let shared = RMSerive()
+    static let shared = RMService()
     
     
     /// Privatized constructor
