@@ -58,7 +58,7 @@ final class RMRequest {
     }
     
     /// Desired http method
-    private var httpMethod = "GET"
+    public var httpMethod = "GET"
     
     // MARK: ~ Public
     
@@ -72,4 +72,8 @@ final class RMRequest {
         self.pathComponents = pathComponents
         self.queryParameters = queryParameters
     }
+}
+
+extension RMRequest {
+    static let listCharactersRequests = RMRequest(endpoint: .character)
 }
